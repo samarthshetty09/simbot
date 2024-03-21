@@ -14,7 +14,7 @@ Our project is aimed towards comparing the efficacy of different simulators like
     * Experimented with various metrics including rotation , translation of both : the whole turtle bot and the LIDAR sensing element respectively.
     * Studied the considered qualitative metrics for the Webots ecosystem.
     * Tracked the CPU and memory usage of this implementation on a Windows ecosystem.
-    * Simulation of Turtle Bot in Webots : [Youtube Link](https://www.youtube.com/watch?v=Kr2a7oU1kHg](https://youtu.be/Kr2a7oU1kHg)
+    * Simulation of Turtle Bot in Webots : [Youtube Link](https://www.youtube.com/watch?v=Kr2a7oU1kHg)
 
 * #### Saikrishna Rajaraman - Coppelia SIM
    * Explored the tutorials of CoppeliaSim simulator environment - Learnt about the different tools , Models, Links , joints etc.
