@@ -37,3 +37,9 @@ Our project is aimed towards comparing the efficacy of different simulators like
     * Collect data from 3 different OS and 3 different robots and average it across different systems.
     * Analyze the data collected and make a comprehensive analysis of the simulators. 
 * #### Samarth Shetty - Gazebo 
+
+## Metrics and Findings
+
+We have recorded our qualitative and quantitative metrics and suggested cumulative score calculation methodology in this [Document](https://docs.google.com/document/d/1laHSenIYe3555zsrR800GbXGSxZrP3JGpSoGkAFmqZk/edit?usp=sharing).
+
+
