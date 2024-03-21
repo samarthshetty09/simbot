@@ -25,6 +25,14 @@ Our project is aimed towards comparing the efficacy of different simulators like
    * Simulation demo - [Turtlebot CoppeliaSim Simulation](https://youtu.be/XnH3cdLI9Hk)
 
 * #### Samarth Shetty - Gazebo 
+   * Conducted an in-depth review of the Gazebo simulation software documentation, focusing on critical features such as operating system compatibility and model support capabilities.
+   * Created a comparison table to evaluate Gazebo against other simulation platforms, incorporating qualitative metrics like OS support and model compatibility to facilitate informed decision-making.
+   * Engaged with various online tutorials to learn the simulation of TurtleBot3 within the Gazebo environment.
+   * Installed ROS2 and Gazebo on the Virtual Computing Lab (VCL)
+   * Tried simulating the turtlebot3 on different ros2 distros
+   * Explored the GUI of Gazebo on Linux.
+   * Issues:
+        * Encountered stability issues with the Gazebo graphical user interface on the VCL, specifically frequent crashes during TurtleBot3 simulations, indicating potential compatibility or resource allocation problems.
 
 ## Next Steps
 
@@ -37,6 +45,8 @@ Our project is aimed towards comparing the efficacy of different simulators like
     * Collect data from 3 different OS and 3 different robots and average it across different systems.
     * Analyze the data collected and make a comprehensive analysis of the simulators. 
 * #### Samarth Shetty - Gazebo 
+    * Will try to pull a ROS2 Gazebo docker container registry and try to simulate the turtlebot
+    * Make quantative analysis of CPU and GPU Usage
 
 ## Metrics and Findings
 
