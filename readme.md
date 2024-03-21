@@ -42,4 +42,5 @@ Our project is aimed towards comparing the efficacy of different simulators like
 
 We have recorded our qualitative and quantitative metrics and suggested cumulative score calculation methodology in this [Document](https://docs.google.com/document/d/1laHSenIYe3555zsrR800GbXGSxZrP3JGpSoGkAFmqZk/edit?usp=sharing).
 
+These metrics have been establish in correspondence to the considered baseline robotic model (i.e) TurtleBot.
 
