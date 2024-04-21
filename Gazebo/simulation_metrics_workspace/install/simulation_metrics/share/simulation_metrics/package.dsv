@@ -1,0 +1,6 @@
+source;share/simulation_metrics/hook/pythonpath.ps1
+source;share/simulation_metrics/hook/pythonpath.dsv
+source;share/simulation_metrics/hook/pythonpath.sh
+source;share/simulation_metrics/hook/ament_prefix_path.ps1
+source;share/simulation_metrics/hook/ament_prefix_path.dsv
+source;share/simulation_metrics/hook/ament_prefix_path.sh

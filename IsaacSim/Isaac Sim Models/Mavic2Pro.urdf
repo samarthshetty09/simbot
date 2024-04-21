@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<robot name="C:/Users/rsrir/Downloads/Mavic2Pro.urdf" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="base_link">
+    <visual>
+      <origin xyz="-0.03 0 0.002" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.21 0.085 0.027"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.03 0 0.002" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.21 0.085 0.027"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.06 0 -0.03" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.15 0.06 0.053"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.06 0 -0.03" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.15 0.06 0.053"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.03 0.09 -0.001" rpy="0 0 -0.3927"/>
+      <geometry>
+        <box size="0.01 0.15 0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.03 0.09 -0.001" rpy="0 0 -0.3927"/>
+      <geometry>
+        <box size="0.01 0.15 0.025"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.03 -0.09 -0.001" rpy="0 0 0.3927"/>
+      <geometry>
+        <box size="0.01 0.15 0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.03 -0.09 -0.001" rpy="0 0 0.3927"/>
+      <geometry>
+        <box size="0.01 0.15 0.025"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.138 0.08 -0.032" rpy="0 0 0.68"/>
+      <geometry>
+        <box size="0.01 0.12 0.018"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.138 0.08 -0.032" rpy="0 0 0.68"/>
+      <geometry>
+        <box size="0.01 0.12 0.018"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.138 -0.08 -0.032" rpy="0 0 -0.68"/>
+      <geometry>
+        <box size="0.01 0.12 0.018"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.138 -0.08 -0.032" rpy="0 0 -0.68"/>
+      <geometry>
+        <box size="0.01 0.12 0.018"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.06 0.15 -0.039" rpy="-0.29 0 0"/>
+      <geometry>
+        <box size="0.01 0.014 0.06"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.06 0.15 -0.039" rpy="-0.29 0 0"/>
+      <geometry>
+        <box size="0.01 0.014 0.06"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0.06 -0.15 -0.039" rpy="0.29 0 0"/>
+      <geometry>
+        <box size="0.01 0.014 0.06"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.06 -0.15 -0.039" rpy="0.29 0 0"/>
+      <geometry>
+        <box size="0.01 0.014 0.06"/>
+      </geometry>
+    </collision>
+Group {
+    children 
+  }Group {
+    children 
+  }Group {
+    children 
+  }Group {
+    children 
+  }  </link>
+  <link name="front left propeller">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.023" rpy="0 0 -0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.023" rpy="0 0 -0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_front left propeller_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="front left propeller"/>
+    <origin xyz="0.054854 0.151294 -0.002805" rpy="0 0 -1.199897"/>
+  </joint>
+  <link name="solid">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_solid_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="solid"/>
+    <origin xyz="0.054854 0.151294 -0.002805" rpy="0 0 -2.786567"/>
+  </joint>
+  <link name="front left led">
+    <visual>
+      <origin xyz="0.060348 0.163919 -0.007601" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0152149 0.0106945 0.0069468"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.060348 0.163919 -0.007601" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0152149 0.0106945 0.0069468"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_front left led_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="front left led"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="front right led">
+    <visual>
+      <origin xyz="0.060348 -0.163659 -0.007601" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0152149 0.0106945 0.00694674"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.060348 -0.163659 -0.007601" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0152149 0.0106945 0.00694674"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_front right led_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="front right led"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <joint name="camera yaw" type="revolute">
+    <parent link="base_link"/>
+    <child link="camera yaw"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="-1.7" upper="1.7" velocity="10"/>
+    <origin xyz="0.041277 -0.004697 -0.004059" rpy="0 0 0"/>
+  </joint>
+  <link name="camera yaw">
+    <visual>
+      <origin xyz="0 -0.003045 -0.014059" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0208626 0.0260333 0.0307844"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.003045 -0.014059" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0208626 0.0260333 0.0307844"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="camera pitch" type="revolute">
+    <parent link="camera yaw"/>
+    <child link="camera pitch"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" lower="-0.5" upper="1.7" velocity="10"/>
+    <origin xyz="0.000625 -0.005303 -0.020745" rpy="0 0 0"/>
+  </joint>
+  <link name="camera pitch">
+    <visual>
+      <origin xyz="-0.002483 0.007769 0.001838" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0239878 0.0349393 0.0314891"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.002483 0.007769 0.001838" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0239878 0.0349393 0.0314891"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="camera roll" type="revolute">
+    <parent link="camera pitch"/>
+    <child link="camera roll"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="10" lower="-0.5" upper="0.5" velocity="10"/>
+    <origin xyz="0.007547 0.016039 -0.005864" rpy="0 0 0"/>
+  </joint>
+  <link name="camera roll">
+    <visual>
+      <origin xyz="-0.009151 0 -0.000984" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0236511 0.0205141 0.0225186"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.009151 0 -0.000984" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0236511 0.0205141 0.0225186"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="camera">
+  </link>
+  <joint name="camera roll_camera_joint" type="fixed">
+    <parent link="camera roll"/>
+    <child link="camera"/>
+    <origin xyz="0 0 0" rpy="-1.570796 0 -1.570796"/>
+  </joint>
+  <link name="front right propeller">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.023" rpy="0 0 0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.023" rpy="0 0 0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_front right propeller_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="front right propeller"/>
+    <origin xyz="0.054854 -0.151294 -0.002805" rpy="0 0 -2.951448"/>
+  </joint>
+  <link name="solid_0">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_solid_0_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="solid_0"/>
+    <origin xyz="0.054854 -0.151294 -0.002805" rpy="0 0 0.702469"/>
+  </joint>
+  <link name="rear right propeller">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.023" rpy="0 0 -0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.023" rpy="0 0 -0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_rear right propeller_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="rear right propeller"/>
+    <origin xyz="-0.177179 -0.127453 -0.032028" rpy="0 0 -1.199897"/>
+  </joint>
+  <link name="solid_1">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_solid_1_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="solid_1"/>
+    <origin xyz="-0.177179 -0.127453 -0.032028" rpy="0 0 2.189052"/>
+  </joint>
+  <link name="rear left propeller">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.013" length="0.025"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0.023" rpy="0 0 0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.023" rpy="0 0 0.7854"/>
+      <geometry>
+        <box size="0.23 0.018 0.005"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_rear left propeller_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="rear left propeller"/>
+    <origin xyz="-0.177179 0.127453 -0.032028" rpy="0 0 -2.951448"/>
+  </joint>
+  <link name="solid_2">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.12" length="0.025"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_link_solid_2_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="solid_2"/>
+    <origin xyz="-0.177179 0.127453 -0.032028" rpy="0 0 0.816483"/>
+  </joint>
+  <link name="inertial unit">
+  </link>
+  <joint name="base_link_inertial unit_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="inertial unit"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="gyro">
+  </link>
+  <joint name="base_link_gyro_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="gyro"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="gps">
+  </link>
+  <joint name="base_link_gps_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="gps"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="compass">
+  </link>
+  <joint name="base_link_compass_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="compass"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
