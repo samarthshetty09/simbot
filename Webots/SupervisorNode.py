@@ -74,3 +74,4 @@ with open('simulation_metrics.csv', mode='w', newline='') as file:
         writer.writerow([i, cpu_percentages[i], total_cpu_usages[i], memory_percentages[i], memory_usages[i], fps_list[i], real_time_factors[i]])
 
 print("Metrics have been saved to simulation_metrics.csv")
+
