@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<robot name="C:/Users/rsrir/Downloads/Sojourner.urdf" xmlns:xacro="http://ros.org/wiki/xacro">
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.01" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.39 0.27 0.16"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.01" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.39 0.27 0.16"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.025 0 0.08" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.61 0.39 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.025 0 0.08" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.61 0.39 0.02"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="-0.33 0 0.014" rpy="3.141593 1.570793 3.141593"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.1"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.33 0 0.014" rpy="3.141593 1.570793 3.141593"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FrontRightBogie" type="continuous">
+    <parent link="base_link"/>
+    <child link="FrontRightBogie"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="10" velocity="10"/>
+    <origin xyz="-0.108 0.2 0.015" rpy="1.570796 -0.100001 0"/>
+  </joint>
+  <link name="FrontRightBogie">
+    <visual>
+      <origin xyz="-0.06 -0.05 -0.015" rpy="0 0 0.7"/>
+      <geometry>
+        <box size="0.07 0.02 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.06 -0.05 -0.015" rpy="0 0 0.7"/>
+      <geometry>
+        <box size="0.07 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FrontRightArm" type="revolute">
+    <parent link="FrontRightBogie"/>
+    <child link="solid"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" lower="-1.5708" upper="1.5708" velocity="10"/>
+    <origin xyz="-0.15 -0.098 0.005" rpy="0 0 0"/>
+  </joint>
+  <link name="solid">
+    <visual>
+      <origin xyz="0 -0.03 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.03 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FrontRightWheel" type="continuous">
+    <parent link="solid"/>
+    <child link="solid_0"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="2" velocity="0.6"/>
+    <origin xyz="0 -0.078 0" rpy="0 0 -0.647943"/>
+  </joint>
+  <link name="solid_0">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="BackRightBogie" type="revolute">
+    <parent link="base_link"/>
+    <child link="BackRightBogie"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="-1" upper="0" velocity="10"/>
+    <origin xyz="-0.108 0.2 0.015" rpy="1.570796 0.099995 0"/>
+  </joint>
+  <link name="BackRightBogie">
+    <visual>
+      <origin xyz="0.08 -0.025 -0.005" rpy="0 0 -0.499995"/>
+      <geometry>
+        <box size="0.11 0.02 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.08 -0.025 -0.005" rpy="0 0 -0.499995"/>
+      <geometry>
+        <box size="0.11 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="hingejoint" type="continuous">
+    <parent link="BackRightBogie"/>
+    <child link="solid_1"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0.175 -0.098 0.023" rpy="0 0 -0.123979"/>
+  </joint>
+  <link name="solid_1">
+    <visual>
+      <origin xyz="0.08 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.12 0.02 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.08 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.12 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="MiddleRightWheel" type="continuous">
+    <parent link="solid_1"/>
+    <child link="MiddleRightWheel"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="2" velocity="0.6"/>
+    <origin xyz="-0.087 -0.078 -0.017" rpy="0 0 -0.647478"/>
+  </joint>
+  <link name="MiddleRightWheel">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="BackRightArm" type="revolute">
+    <parent link="solid_1"/>
+    <child link="BackRightArm"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" lower="-1.5708" upper="1.5708" velocity="10"/>
+    <origin xyz="0.155 0.011 -0.02" rpy="0 0.000001 0"/>
+  </joint>
+  <link name="BackRightArm">
+    <visual>
+      <origin xyz="0.01 -0.03 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.01 -0.03 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="BackRightWheel" type="continuous">
+    <parent link="BackRightArm"/>
+    <child link="solid_2"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="2" velocity="0.6"/>
+    <origin xyz="0.025 -0.079 0" rpy="0 0 -0.647953"/>
+  </joint>
+  <link name="solid_2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FrontLeftBogie" type="continuous">
+    <parent link="base_link"/>
+    <child link="FrontLeftBogie"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="10" velocity="10"/>
+    <origin xyz="-0.108 -0.2 0.015" rpy="1.570796 -0.099996 0"/>
+  </joint>
+  <link name="FrontLeftBogie">
+    <visual>
+      <origin xyz="-0.06 -0.05 0.015" rpy="0 0 0.7"/>
+      <geometry>
+        <box size="0.07 0.02 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="-0.06 -0.05 0.015" rpy="0 0 0.7"/>
+      <geometry>
+        <box size="0.07 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FrontLeftArm" type="revolute">
+    <parent link="FrontLeftBogie"/>
+    <child link="solid_3"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" lower="-1.5708" upper="1.5708" velocity="10"/>
+    <origin xyz="-0.15 -0.098 -0.005" rpy="0 0.000003 0"/>
+  </joint>
+  <link name="solid_3">
+    <visual>
+      <origin xyz="0 -0.03 -0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.03 -0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="FrontLeftWheel" type="continuous">
+    <parent link="solid_3"/>
+    <child link="solid_4"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="2" velocity="0.6"/>
+    <origin xyz="0 -0.078 0" rpy="0 0 -0.647943"/>
+  </joint>
+  <link name="solid_4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="BackLeftBogie" type="revolute">
+    <parent link="base_link"/>
+    <child link="BackLeftBogie"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" lower="-1" upper="0" velocity="10"/>
+    <origin xyz="-0.108 -0.2 0.015" rpy="1.570796 0.100001 0"/>
+  </joint>
+  <link name="BackLeftBogie">
+    <visual>
+      <origin xyz="0.09 -0.035 -0.005" rpy="0 0 -0.499995"/>
+      <geometry>
+        <box size="0.11 0.02 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.09 -0.035 -0.005" rpy="0 0 -0.499995"/>
+      <geometry>
+        <box size="0.11 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="hingejoint_5" type="continuous">
+    <parent link="BackLeftBogie"/>
+    <child link="solid_6"/>
+    <axis xyz="0 0 1"/>
+    <origin xyz="0.175 -0.098 -0.023" rpy="0 0 -0.048785"/>
+  </joint>
+  <link name="solid_6">
+    <visual>
+      <origin xyz="0.08 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.12 0.02 0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.08 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.12 0.02 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="MiddleLeftWheel" type="continuous">
+    <parent link="solid_6"/>
+    <child link="MiddleLeftWheel"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="2" velocity="0.6"/>
+    <origin xyz="-0.087 -0.078 0.02" rpy="0 0 -0.645487"/>
+  </joint>
+  <link name="MiddleLeftWheel">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="BackLeftArm" type="revolute">
+    <parent link="solid_6"/>
+    <child link="BackLeftArm"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="10" lower="-1.5708" upper="1.5708" velocity="10"/>
+    <origin xyz="0.155 0.011 0.02" rpy="0 0 0"/>
+  </joint>
+  <link name="BackLeftArm">
+    <visual>
+      <origin xyz="0.01 -0.03 -0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.01 -0.03 -0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02 0.04 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="BackLeftWheel" type="continuous">
+    <parent link="BackLeftArm"/>
+    <child link="solid_7"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="2" velocity="0.6"/>
+    <origin xyz="0.025 -0.078 0" rpy="0 0 -0.64795"/>
+  </joint>
+  <link name="solid_7">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.08"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
