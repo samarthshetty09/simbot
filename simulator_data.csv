@@ -1,0 +1,285 @@
+﻿Iteration,CPU Usage,Memory Usage,GPU Usage,FPS,Simulator,Model
+1,40.9,4.1,0,23.08,Gazebo,Mavic Pro
+2,42.2,4.1,0,25.21,Gazebo,Mavic Pro
+3,44.4,4.1,0,26.46,Gazebo,Mavic Pro
+4,44.5,4.1,0,27.3,Gazebo,Mavic Pro
+5,44.9,4.1,0,27.92,Gazebo,Mavic Pro
+6,44.9,4.1,0,28.35,Gazebo,Mavic Pro
+7,44.2,4.1,0,28.65,Gazebo,Mavic Pro
+8,45.5,4.1,0,28.95,Gazebo,Mavic Pro
+9,44.9,4.1,0,29.14,Gazebo,Mavic Pro
+10,45.9,4.1,0,29.33,Gazebo,Mavic Pro
+11,44.7,4.1,0,29.49,Gazebo,Mavic Pro
+12,44.2,4.1,0,29.61,Gazebo,Mavic Pro
+13,44.6,4.1,0,29.73,Gazebo,Mavic Pro
+14,44.4,4.1,0,29.81,Gazebo,Mavic Pro
+15,45,4.1,0,29.89,Gazebo,Mavic Pro
+1,255.8,0.278237118,0,29.1398,CoppeliaSim,Mavic Pro
+2,262.8,0.278237118,0,32.496,CoppeliaSim,Mavic Pro
+3,253.8,0.278237118,0,31.3539,CoppeliaSim,Mavic Pro
+4,245.8,0.278237118,0,32.635,CoppeliaSim,Mavic Pro
+5,248.7,0.278237118,0,32.2256,CoppeliaSim,Mavic Pro
+6,257.6,0.278237118,0,32.4954,CoppeliaSim,Mavic Pro
+7,248.7,0.278237118,0,31.2964,CoppeliaSim,Mavic Pro
+8,61.9,0.278237118,0,32.3406,CoppeliaSim,Mavic Pro
+9,58.9,0.278237118,0,30.6595,CoppeliaSim,Mavic Pro
+10,245.7,0.278237118,0,29.6535,CoppeliaSim,Mavic Pro
+11,245.7,0.278237118,0,33.0019,CoppeliaSim,Mavic Pro
+12,248.6,0.278237118,0,32.5859,CoppeliaSim,Mavic Pro
+13,247.7,0.278237118,0,32.1012,CoppeliaSim,Mavic Pro
+14,244.7,0.278237118,0,30.6924,CoppeliaSim,Mavic Pro
+15,239.7,0.278237118,0,29.6922,CoppeliaSim,Mavic Pro
+1,10,85.1,0,27.021469365754456,Webots,Mavic Pro
+2,22.2,85.1,0,27.368072278398763,Webots,Mavic Pro
+3,8.3,85.1,0,27.87350043,Webots,Mavic Pro
+4,6.2,85.1,0,28.20780169053922,Webots,Mavic Pro
+5,8.3,85.1,0,28.56937699196804,Webots,Mavic Pro
+6,7.7,85.1,0,28.95618046969715,Webots,Mavic Pro
+7,6.7,85.1,0,29.29837435146071,Webots,Mavic Pro
+8,0,85.1,0,29.60857951240449,Webots,Mavic Pro
+9,14.3,85.1,0,29.903237500226226,Webots,Mavic Pro
+10,16.7,85.1,0,30.004606954307217,Webots,Mavic Pro
+11,12.5,85.1,0,30.21995367700661,Webots,Mavic Pro
+12,0,85.1,0,30.552315157397345,Webots,Mavic Pro
+13,6.2,85.1,0,30.61428504694726,Webots,Mavic Pro
+14,8.3,85.1,0,30.83940993490499,Webots,Mavic Pro
+15,18.8,85.1,0,30.936828287554643,Webots,Mavic Pro
+1,3.6,45.8,38,32.73,Isaac Sim,Mavic Pro
+2,8.9,45.8,41,32.49,Isaac Sim,Mavic Pro
+3,4.6,45.8,39,32.52,Isaac Sim,Mavic Pro
+4,2.6,45.8,42,32.69,Isaac Sim,Mavic Pro
+5,5,45.8,34,32.54,Isaac Sim,Mavic Pro
+6,4.5,45.8,37,32.7,Isaac Sim,Mavic Pro
+7,5.8,45.8,39,32.7,Isaac Sim,Mavic Pro
+8,5.3,45.8,39,32.51,Isaac Sim,Mavic Pro
+9,3.8,45.7,39,32.52,Isaac Sim,Mavic Pro
+10,2.9,45.8,40,32.68,Isaac Sim,Mavic Pro
+11,5,45.8,41,32.7,Isaac Sim,Mavic Pro
+12,5.4,45.8,38,32.52,Isaac Sim,Mavic Pro
+13,3.6,45.8,42,32.68,Isaac Sim,Mavic Pro
+14,3.5,45.8,32,32.68,Isaac Sim,Mavic Pro
+15,5.8,45.8,39,32.67,Isaac Sim,Mavic Pro
+1,289.6,0.25660892,0,19.3,CoppeliaSim,Turtle Bot
+2,282.6,0.25660892,0,21.4503,CoppeliaSim,Turtle Bot
+3,288.6,0.25660892,0,20.4155,CoppeliaSim,Turtle Bot
+4,286.6,0.25660892,0,20.5542,CoppeliaSim,Turtle Bot
+5,296.6,0.25660892,0,19.6757,CoppeliaSim,Turtle Bot
+6,292.6,0.25660892,0,19.4866,CoppeliaSim,Turtle Bot
+7,291.6,0.25660892,0,19.9598,CoppeliaSim,Turtle Bot
+8,278.6,0.25660892,0,19.5923,CoppeliaSim,Turtle Bot
+9,287.6,0.25660892,0,19.1743,CoppeliaSim,Turtle Bot
+10,291.5,0.25660892,0,19.1751,CoppeliaSim,Turtle Bot
+11,289.6,0.25660892,0,19.9133,CoppeliaSim,Turtle Bot
+1,33.7,3.2,0,27.47,Gazebo,Turtle Bot
+2,35.2,3.2,0,28.06,Gazebo,Turtle Bot
+3,34.7,3.2,0,28.48,Gazebo,Turtle Bot
+4,36.5,3.2,0,28.85,Gazebo,Turtle Bot
+5,34.9,3.2,0,29.07,Gazebo,Turtle Bot
+6,33.9,3.2,0,29.28,Gazebo,Turtle Bot
+7,36.2,3.2,0,29.47,Gazebo,Turtle Bot
+8,36.4,3.2,0,29.62,Gazebo,Turtle Bot
+9,35,3.2,0,29.74,Gazebo,Turtle Bot
+10,35.6,3.2,0,29.86,Gazebo,Turtle Bot
+11,34.8,3.2,0,29.94,Gazebo,Turtle Bot
+1,7.3,48.6,33,32.54,Isaac Sim,Turtle Bot
+2,4.3,48.6,31,32.49,Isaac Sim,Turtle Bot
+3,5.2,48.6,35,32.7,Isaac Sim,Turtle Bot
+4,6.5,48.6,38,32.54,Isaac Sim,Turtle Bot
+5,5.1,48.6,31,32.56,Isaac Sim,Turtle Bot
+6,5,48.6,31,32.51,Isaac Sim,Turtle Bot
+7,7.4,48.6,39,32.52,Isaac Sim,Turtle Bot
+8,4.7,48.6,30,32.72,Isaac Sim,Turtle Bot
+9,4.5,48.7,41,32.51,Isaac Sim,Turtle Bot
+10,4.4,48.7,10,32.66,Isaac Sim,Turtle Bot
+11,5.7,48.7,31,32.67,Isaac Sim,Turtle Bot
+1,12.5,75.9,0,14.94512323,Webots,Turtle Bot
+2,3,75.9,0,14.97371757,Webots,Turtle Bot
+3,3.1,75.8,0,15.0684094,Webots,Turtle Bot
+4,9.1,75.8,0,15.08384021,Webots,Turtle Bot
+5,0,75.8,0,15.12885648,Webots,Turtle Bot
+6,3.1,75.9,0,15.06014683,Webots,Turtle Bot
+7,25.8,75.9,0,15.30379424,Webots,Turtle Bot
+8,2.4,75.9,0,15.14348232,Webots,Turtle Bot
+9,0,75.9,0,14.99849779,Webots,Turtle Bot
+10,2.5,75.9,0,14.86867083,Webots,Turtle Bot
+11,9.4,75.9,0,14.88930212,Webots,Turtle Bot
+1,41,3.9,23,0,Gazebo,Spot
+2,39.5,3.9,25,0,Gazebo,Spot
+3,39.3,3.9,26,0,Gazebo,Spot
+4,40.6,3.9,27,0,Gazebo,Spot
+5,42.6,3.9,28,0,Gazebo,Spot
+6,41.4,3.9,28,0,Gazebo,Spot
+7,43.2,3.9,28,0,Gazebo,Spot
+8,43,3.9,29,0,Gazebo,Spot
+9,43.8,3.9,29,0,Gazebo,Spot
+10,40.6,3.9,29,0,Gazebo,Spot
+11,38.4,3.9,29,0,Gazebo,Spot
+12,35.4,3.9,29,0,Gazebo,Spot
+13,34.5,3.9,29,0,Gazebo,Spot
+14,34.6,3.9,29,0,Gazebo,Spot
+15,35.9,3.9,29,0,Gazebo,Spot
+1,241.7,0.254634725,32.8,0,CoppeliaSim,Spot
+2,243.7,0.254634725,28.04,0,CoppeliaSim,Spot
+3,235.6,0.254634725,26.7,0,CoppeliaSim,Spot
+4,240.7,0.254834874,27.51,0,CoppeliaSim,Spot
+5,231.7,0.254834874,29.56,0,CoppeliaSim,Spot
+6,240.7,0.254834874,29.58,0,CoppeliaSim,Spot
+7,237.7,0.254834874,30.35,0,CoppeliaSim,Spot
+8,230.7,0.254834874,32.78,0,CoppeliaSim,Spot
+9,233.8,0.254834874,30.67,0,CoppeliaSim,Spot
+10,231.6,0.254834874,30.64,0,CoppeliaSim,Spot
+11,232.7,0.254834874,30.32,0,CoppeliaSim,Spot
+12,240.7,0.254834874,30.06,0,CoppeliaSim,Spot
+13,239.7,0.254834874,34.32,0,CoppeliaSim,Spot
+14,226.7,0.254834874,32.31,0,CoppeliaSim,Spot
+15,240.6,0.254834874,33.74,0,CoppeliaSim,Spot
+1,3.8,44.5,32.69,35,Isaac Sim,Spot
+2,4.5,44.6,32.53,38,Isaac Sim,Spot
+3,4.1,44.6,32.68,39,Isaac Sim,Spot
+4,5.7,44.5,32.51,37,Isaac Sim,Spot
+5,4.1,44.5,32.74,41,Isaac Sim,Spot
+6,3.8,44.5,32.71,31,Isaac Sim,Spot
+7,6.3,44.5,32.49,39,Isaac Sim,Spot
+8,4.1,44.5,32.52,40,Isaac Sim,Spot
+9,3.4,44.6,32.69,31,Isaac Sim,Spot
+10,7,44.6,32.53,31,Isaac Sim,Spot
+11,4.5,44.6,32.73,35,Isaac Sim,Spot
+12,5.2,44.6,32.69,38,Isaac Sim,Spot
+13,3.9,44.6,32.53,30,Isaac Sim,Spot
+14,4,44.6,32.51,34,Isaac Sim,Spot
+15,4.3,44.6,32.54,31,Isaac Sim,Spot
+1,12.5,81.3,21.26291645731615,0,Webots,Spot
+2,12.5,81.3,21.511039514216026,0,Webots,Spot
+3,13.3,81.2,21.650942824025023,0,Webots,Spot
+4,0,81.2,22.347951624304358,0,Webots,Spot
+5,15.8,81.2,22.51607681381612,0,Webots,Spot
+6,9.5,81.2,22.51818128130654,0,Webots,Spot
+7,18.8,81.2,22.796152544883128,0,Webots,Spot
+8,12.5,81.2,23.114838805248947,0,Webots,Spot
+9,12.5,81.3,22.70568408814274,0,Webots,Spot
+10,9.1,81.3,23.21257837966473,0,Webots,Spot
+11,9.1,81.3,23.55012400658374,0,Webots,Spot
+12,13.3,81.3,23.863055849071706,0,Webots,Spot
+13,10.5,81.3,23.951305967272727,0,Webots,Spot
+14,12.5,81.3,24.250799106388488,0,Webots,Spot
+15,18.8,81.3,24.383171439196456,0,Webots,Spot
+1,77.7,3.7,18.64,0,Gazebo,Rover
+2,77.2,3.7,23.39,0,Gazebo,Rover
+3,77.3,3.7,25.54,0,Gazebo,Rover
+4,77.2,3.7,26.77,0,Gazebo,Rover
+5,78.3,3.7,27.62,0,Gazebo,Rover
+6,80.6,3.7,28.21,0,Gazebo,Rover
+7,80.8,3.7,28.65,0,Gazebo,Rover
+8,80.5,3.7,28.97,0,Gazebo,Rover
+9,80.1,3.7,29.23,0,Gazebo,Rover
+10,80.6,3.7,29.41,0,Gazebo,Rover
+11,78.9,3.7,29.61,0,Gazebo,Rover
+12,80.2,3.7,29.77,0,Gazebo,Rover
+13,80.7,3.7,29.88,0,Gazebo,Rover
+14,80.9,3.7,29.97,0,Gazebo,Rover
+15,81.2,3.7,30.06,0,Gazebo,Rover
+1,12.5,85.4,50.439925707184756,0,Webots,Rover
+2,18.8,85.4,50.0607265,0,Webots,Rover
+3,17.6,85.4,49.64123091339024,0,Webots,Rover
+4,12.5,85.4,49.32044086503242,0,Webots,Rover
+5,12.5,85.4,48.880949713571646,0,Webots,Rover
+6,6.2,85.4,48.56833806,0,Webots,Rover
+7,19,85.4,48.250523946772866,0,Webots,Rover
+8,10,85.4,48.06317903918357,0,Webots,Rover
+9,5.9,85.4,48.51202567557163,0,Webots,Rover
+10,6.2,85.4,48.66489168153789,0,Webots,Rover
+11,12.5,85.4,48.48894238039711,0,Webots,Rover
+12,12.5,85.4,48.32465390792446,0,Webots,Rover
+13,6.7,85.4,48.29871781433479,0,Webots,Rover
+14,11.1,85.4,48.751419488693486,0,Webots,Rover
+15,33.3,85.3,49.52562268784204,0,Webots,Rover
+1,7,48.4,32.68,40,Isaac Sim,Rover
+2,6.8,48.4,32.74,33,Isaac Sim,Rover
+3,5.3,48.4,32.51,41,Isaac Sim,Rover
+4,8.4,48.4,32.52,39,Isaac Sim,Rover
+5,4.9,48.4,32.68,39,Isaac Sim,Rover
+6,4.4,48.5,32.67,38,Isaac Sim,Rover
+7,8.1,48.5,32.52,40,Isaac Sim,Rover
+8,5.8,48.5,32.54,37,Isaac Sim,Rover
+9,6,48.5,32.68,37,Isaac Sim,Rover
+10,5.8,48.5,32.69,39,Isaac Sim,Rover
+11,6,48.5,32.71,39,Isaac Sim,Rover
+12,5.4,48.5,32.54,39,Isaac Sim,Rover
+13,5,48.5,32.52,38,Isaac Sim,Rover
+14,6.5,48.5,32.66,39,Isaac Sim,Rover
+15,4.5,48.5,32.7,40,Isaac Sim,Rover
+1,278.6,0.28661304,18.92,0,CoppeliaSim,Rover
+2,278.6,0.28661304,17.99,0,CoppeliaSim,Rover
+3,276.6,0.28661304,16.85,0,CoppeliaSim,Rover
+4,283.6,0.28661304,16.16,0,CoppeliaSim,Rover
+5,276.6,0.28661304,19.85,0,CoppeliaSim,Rover
+6,277.6,0.28661304,19.34,0,CoppeliaSim,Rover
+7,273.6,0.28661304,18.62,0,CoppeliaSim,Rover
+8,279.6,0.28661304,18.68,0,CoppeliaSim,Rover
+9,280.6,0.28661304,17.88,0,CoppeliaSim,Rover
+10,282.6,0.28661304,19.31,0,CoppeliaSim,Rover
+11,277.6,0.28661304,19.79,0,CoppeliaSim,Rover
+12,281.6,0.28661304,19.17,0,CoppeliaSim,Rover
+13,280.6,0.28661304,19.39,0,CoppeliaSim,Rover
+14,270.6,0.28661304,17.95,0,CoppeliaSim,Rover
+15,279.6,0.28661304,17.8,0,CoppeliaSim,Rover
+1,67.8,3.8,0,23.35,Gazebo,Create
+2,66.8,3.8,0,25.51,Gazebo,Create
+3,63.3,3.8,0,26.77,Gazebo,Create
+4,63,3.8,0,27.63,Gazebo,Create
+5,63.1,3.8,0,28.2,Gazebo,Create
+6,65.5,3.8,0,28.63,Gazebo,Create
+7,65.2,3.8,0,28.95,Gazebo,Create
+8,63,3.8,0,29.23,Gazebo,Create
+9,64.6,3.8,0,29.43,Gazebo,Create
+10,66.5,3.8,0,29.59,Gazebo,Create
+11,65.5,3.8,0,29.73,Gazebo,Create
+12,63.9,3.8,0,29.85,Gazebo,Create
+13,62.8,3.8,0,29.95,Gazebo,Create
+14,63.9,3.8,0,30.07,Gazebo,Create
+15,62.9,3.8,0,30.13,Gazebo,Create
+1,2.9,47,36,32.68,Isaac Sim,Create
+2,3,47,31,32.72,Isaac Sim,Create
+3,4.8,47,41,32.54,Isaac Sim,Create
+4,2.6,47,32,32.54,Isaac Sim,Create
+5,4.8,47,37,32.68,Isaac Sim,Create
+6,4.4,47,27,32.67,Isaac Sim,Create
+7,4.5,47,30,32.72,Isaac Sim,Create
+8,2.5,47,38,32.71,Isaac Sim,Create
+9,3.2,47,39,32.71,Isaac Sim,Create
+10,5.3,47,36,32.67,Isaac Sim,Create
+11,3.8,47,38,32.7,Isaac Sim,Create
+12,3.6,47,41,32.7,Isaac Sim,Create
+13,4.1,47,31,32.52,Isaac Sim,Create
+14,2.9,47,30,32.52,Isaac Sim,Create
+15,3.2,47,38,32.73,Isaac Sim,Create
+1,6.2,78.3,0,16.12629425854797,Webots,Create
+2,6.2,78.3,0,21.783499961048065,Webots,Create
+3,6.2,78.3,0,29.59815338974499,Webots,Create
+4,6.2,78.3,0,29.738972774170154,Webots,Create
+5,4.2,78.3,0,29.551439472771417,Webots,Create
+6,11.8,78.3,0,29.572833342037917,Webots,Create
+7,6.7,78.3,0,30.46745018462355,Webots,Create
+8,5.9,78.3,0,30.526481391002033,Webots,Create
+9,6.2,78.3,0,30.354106690943343,Webots,Create
+10,6.2,78.3,0,30.18047716050306,Webots,Create
+11,13.3,78.3,0,30.237805303266306,Webots,Create
+12,11.1,78.3,0,30.533160763882165,Webots,Create
+13,6.2,78.3,0,30.637216413462344,Webots,Create
+14,6.2,78.3,0,30.66536475213947,Webots,Create
+15,6.7,78.3,0,30.598277642176686,Webots,Create
+1,282.6,0.25660892,0,21.4503,CoppeliaSim,Create
+2,288.6,0.25660892,0,20.4155,CoppeliaSim,Create
+3,286.6,0.25660892,0,20.5542,CoppeliaSim,Create
+4,296.6,0.25660892,0,19.6757,CoppeliaSim,Create
+5,292.6,0.25660892,0,19.4866,CoppeliaSim,Create
+6,291.6,0.25660892,0,19.9598,CoppeliaSim,Create
+7,278.6,0.25660892,0,19.5923,CoppeliaSim,Create
+8,287.6,0.25660892,0,19.1743,CoppeliaSim,Create
+9,291.5,0.25660892,0,19.1751,CoppeliaSim,Create
+10,289.6,0.25660892,0,19.9133,CoppeliaSim,Create
+11,293.6,0.24462425,0,20.5064,CoppeliaSim,Create
+12,293.6,0.24462425,0,19.9058,CoppeliaSim,Create
+13,289.6,0.24462425,0,19.8408,CoppeliaSim,Create
+14,290.6,0.24462425,0,18.6448,CoppeliaSim,Create
+15,278.6,0.24462425,0,20.1574,CoppeliaSim,Create
