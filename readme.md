@@ -9,12 +9,21 @@ Our project is aimed towards comparing the efficacy of different simulators like
 # Configuring the chatbot: 
 
 
+
+
 ## Installation
 
 To install the required dependencies, run the following command:
 
 
 ``` pip install -r requirements.txt ```
+
+
+## Configure OPEN_AI_API_KEY
+
+Save your OPEN_AI_API_KEY in the .env file in the project folder location
+
+``` OPEN_AI_API_KEY = YOUR_API_KEY```
 
 ## To start the streamlit server
 
