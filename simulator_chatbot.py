@@ -12,6 +12,10 @@ import os
 
 
 load_dotenv(override=True)
+counter = 0
+
+chat_history_tuples = []
+
 
 
 
@@ -31,24 +35,24 @@ chain = ConversationalRetrievalChain.from_llm(llm=ChatOpenAI(temperature=0.0,mod
 
 def query_bot(query):
     response = chain({"question": query,"chat_history":st.session_state['history']})
-    st.session_state.history.append(response['answer'])
+    st.session_state['history'].append((query, response["answer"]))
     return response['answer']
 
 
-
+st.set_page_config(page_title="SimBot 🤖")
+st.title("SimBot 🤖")
 
 if 'history' not in st.session_state:
     st.session_state.history = []
 
 
 if 'bot' not in st.session_state.keys():
-    print("Generating")
     st.session_state.bot = ["Hello! How can I help you today?"]
 
 
 
 if 'past' not in st.session_state:
-    st.session_state.past = ['Hey! How can I help you today?']
+    st.session_state.past = ['Hey ! 👋']
 
 
 
