@@ -8,7 +8,7 @@ Our project is aimed towards comparing the efficacy of different simulators like
 Continuing with our goal of the project, we stretched our goals to even further to bring in context to comparison of the simulators. We have now integrated a chatbot leveraging the power of LLM and Langchain models. We have trained the chatbot using the data that we collected. We are sure that this chatbot - SimBot will aid the budding developers like us in giving a headstart to their journey in the field of robotics.
 
 
-Configuring the chatbot: 
+# Configuring the chatbot: 
 
 
 ## Installation
