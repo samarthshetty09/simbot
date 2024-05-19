@@ -1,0 +1,11 @@
+﻿Qualitative Metrics ,Coppelia SIM,Gazebo ,Webots,Isaac Sim
+Free to use,Free for education purposes,Free for all use cases,Free for all Use Cases,Free to use
+Open source software ,Yes,Yes,Yes,Yes
+ROS Compatibility,Both ROS1 and ROS2 supported,Compatible with both ROS1 and ROS2,Compatible with both ROS1 and ROS2,Yes
+UI Functionality,All tools available for manipulating the environments as well as the objects in the environment,Provides a powerful user interface for designing and testing robotics,"Object level functionality to add,update and delete features in the environment",All tools available for robot manipulation and simulation. It has a photorealistic interface.
+Programming languages supported,"C/C++, Lua, Python, Java, Matlab, Octave","C/C++, Python","C/Cpp , Java , Python, MATLAB",Python
+Model format support ,"URDF, SDF, Stl, Obj, Dxf, Collada","SDF, URDF","PROTO, VRML97, URDF,SDF,X3D","Obj,GLTF,FBX,BMP,DDS,EXR,GIF,HDR,JPEG,JPG,TIF,PNG,PSD,TGA"
+Physics engine support,"Bullet, ODE, Newton and Vortex","ODE, Bullet, Simbody, DART","ODE/ODE2, Bullet Physics, Vortex, Simbody",PhysX
+OS Support ,"Windows, Ubuntu, MacOS","Linux (Ubuntu, Fedora), with limited support on macOS and Windows via Docker or Virtual Machine","Windows, Fedora,Ubuntu,CentOS, macOS",Windows and Ubuntu
+Community Support,Average,Best,Good,Good
+Ease of Installation,Easy,Difficult,Easy,Easy
